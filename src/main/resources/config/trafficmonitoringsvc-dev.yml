@@ -1,5 +1,5 @@
 build:
-  version: "33.0"
+  version: "45.0"
 
 trafficmonitoringsvc:
   message: "Welcome to Traffic Monitoring Service with development profile"

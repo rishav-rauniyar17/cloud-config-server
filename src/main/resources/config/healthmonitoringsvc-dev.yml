@@ -1,5 +1,5 @@
 build:
-  version: "22.0"
+  version: "20.0"
 
 healthmonitoringsvc:
   message: "Welcome to Health Monitoring Service with development profile"

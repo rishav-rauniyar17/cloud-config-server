@@ -1,8 +1,8 @@
 build:
-  version: "10.0"
+  version: "17.0"
 
 healthmonitoringsvc:
-  message: "Welcome to Health Monitoring Service with development profile"
+  message: "Welcome to Health Monitoring Service with dev profile"
   contactDetails:
     name: "John Doe - Developer"
     email: "johndoe.dev@example.com"
@@ -11,4 +11,4 @@ healthmonitoringsvc:
     - (156) 342-0956
   logging:
     level:
-      root: TRACE
+      root: INFO

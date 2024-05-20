@@ -2,12 +2,14 @@ spring:
   application:
     name: cloud-config-server
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:/config"
+#        native:
+#          search-locations: "classpath:/config"
+        git:
+          uri: https://github.com/rishav-rauniyar17/cloud-config-server/tree/main/src/main/resources/config
   rabbitmq:
     host: "localhost"
     port: 5672
